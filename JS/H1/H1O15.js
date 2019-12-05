@@ -13,7 +13,15 @@ function setup() {
 function draw() {
   background('lavender');
   text("x = " + round(xJOS),10,20);
+  translate(-150,160);
   tekenJos(xJOS,yJOS);
+
+  translate(0,160);
+  tekenJos(xJOS,yJOS);
+
+  translate(0,160);
+  tekenJos(xJOS,yJOS);
+
 }
 
 function tekenJos(x,y) {
