@@ -6,9 +6,8 @@ function setup() {
 }
 
 function draw() {
-  noStroke();
+  stroke('black');
   fill('steelblue');
-  ellipse(0,0,800);
-  fill('deepskyblue');
-  ellipse(450,450,400);
+  ellipse(225,225,300);
+  rect(125,125,200,200);
 }

@@ -4,9 +4,9 @@ var marge = 20;
 function setup() {
   canvas = createCanvas(1000,300);
   canvas.parent('processing');
-  textFont("Verdana");
+  textFont("Courier");
   textSize(letterGrootte);
-  textLeading(1.2*letterGrootte);
+  textLeading(0.8*letterGrootte);
   //noLoop();
 }
 
@@ -29,6 +29,6 @@ function draw() {
   translate(25,25);
   noStroke();
   fill('white');
-  textAlign(CENTER, CENTER);
+  textAlign(RIGHT, BOTTEM);
   text("Deze tekst is erg lang en wordt daarom op meerdere regels weergegeven.",0,0,350,150);
 }
