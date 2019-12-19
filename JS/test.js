@@ -1,13 +1,17 @@
 function setup() {
-  canvas = createCanvas(450,450);
+  canvas = createCanvas(500,500);
   background('silver');
   canvas.parent('processing');
   //noLoop();
 }
 
 function draw() {
-  stroke('black');
+  noStroke();
   fill('steelblue');
-  ellipse(225,225,300);
-  rect(125,125,200,200);
+ 
+  for (var n = 0;n <= 4;n++){
+    ellipse (50,225,100);
+    translate(100,0); 
+  }
 }
+
